@@ -87,3 +87,5 @@ if [[ -e "Staticfile" && "$(grep 'pushstate: enabled' Staticfile)X" != "X" ]]; t
 fi
 
 cp $compile_buildpack_bin/boot.sh .
+
+env
